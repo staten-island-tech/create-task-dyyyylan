@@ -10,7 +10,7 @@ const dropRate = {
 };
 
 
-function pull() {
+function run() {
   const random = Math.random();
   let rarity;
 
@@ -24,11 +24,7 @@ function pull() {
     rarity = "3-Star";
   }
   const items = gachaPool.filter(item => item.rarity === rarity);
-  const selectedItem = items[Math.floor(Math.random() * items.length)];
-  return selectedItem;
-}
-
-function addCardToContainer(result) {
+  const result = items[Math.floor(Math.random() * items.length)];
   let exists = false;
   [...DOMSelectors.container.querySelectorAll('.card-title')].forEach(card => {
     if (card.textContent === result.name) {
@@ -49,7 +45,7 @@ function addCardToContainer(result) {
     );
   }
 }
+
 DOMSelectors.pull.addEventListener("click", function() {
-  const result = pull();
-  addCardToContainer(result);
-});
+  run();
+})
