@@ -1,14 +1,14 @@
 export const gachaPool = [
-    { name: "Iron Sword", rarity: "3-Star", image: "/ironsword.jpg"},
-    { name: "Wooden Shield", rarity: "3-Star", image: "/woodenshield.jpg" },
-    { name: "Slime Companion", rarity: "3-Star", image: "/slime.jpg" },
-    { name: "Healing Potion", rarity: "3-Star", image: "/healingpot.jpg" },
-    { name: "Apprentice Robe", rarity: "3-Star", image: "/robe.jpg" },
-    { name: "Fire Sword", rarity: "4-Star", image: "/firesword.jpg" },
-    { name: "Pot of Greed", rarity: "4-Star", image: "/potofgreed.jpg" },
-    { name: "Enchanted Diamond Helmet", rarity: "4-Star", image: "/diamondhelm.jpg" },
-    { name: "gary", rarity: "4-Star", image: "/gary.jpg" },
-    { name: "Excalibur", rarity: "5-Star", image: "/excalibur.jpg" },
+    { name: "Steel Sword", rarity: "2-Star", image: "/ironsword.jpg"},
+    { name: "Shield of Oak", rarity: "2-Star", image: "/woodenshield.jpg" },
+    { name: "Slime Ally", rarity: "2-Star", image: "/slime.jpg" },
+    { name: "Restoration Potion", rarity: "2-Star", image: "/healingpot.jpg" },
+    { name: "Apprentice Cloak", rarity: "2-Star", image: "/robe.jpg" },
+    { name: "Incendiary Sword", rarity: "4-Star", image: "/firesword.jpg" },
+    { name: "Pot of Capitalism", rarity: "4-Star", image: "/potofgreed.jpg" },
+    { name: "Enchanted Mineral Helmet", rarity: "4-Star", image: "/diamondhelm.jpg" },
+    { name: "garry", rarity: "4-Star", image: "/gary.jpg" },
+    { name: "Foam Sword ($0.99)", rarity: "5-Star", image: "/excalibur.jpg" },
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
@@ -994,7 +994,7 @@ export const gachaPool = [
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
     { name: "Capybara", rarity: "5-Star", image: "/capybara.jpg" },
-    { name: "Suspicious Blue Substance", rarity: "5-Star", image: "/blue.jpg" },
-    { name: "Satoru Gojo", rarity: "6-Star", image: "/gojo.jpg" }
+    { name: "Suspicious Light Teal Substance", rarity: "5-Star", image: "/blue.jpg" },
+    { name: "Satoru Gosu", rarity: "6-Star", image: "/gojo.jpg" }
   ];
   

@@ -3,10 +3,10 @@ import { gachaPool } from './array'
 import { DOMSelectors } from './dom'
 
 const dropRate = {
-  "3-Star": 0.4,  
+  "2-Star": 0.4,  
   "4-Star": 0.09, 
-  "5-Star": 0.01, 
-  "6-Star": 0.0001,
+  "5-Star": 0.5, 
+  "6-Star": 0.01,
 };
 
 
@@ -21,7 +21,7 @@ function run() {
   } else if (random < dropRate["6-Star"] + dropRate["5-Star"] + dropRate["4-Star"]) {
     rarity = "4-Star";
   } else {
-    rarity = "3-Star";
+    rarity = "2-Star";
   }
   const items = gachaPool.filter(item => item.rarity === rarity);
   const result = items[Math.floor(Math.random() * items.length)];
