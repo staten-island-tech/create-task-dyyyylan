@@ -5,8 +5,8 @@ import { DOMSelectors } from './dom'
 const dropRate = {
   "2-Star": 0.4,  
   "4-Star": 0.09, 
-  "5-Star": 0.5, 
-  "6-Star": 0.01,
+  "5-Star": 0.05, 
+  "6-Star": 0.001,
 };
 
 
